@@ -57,7 +57,7 @@ def title_page(width, height, win):
   txtAdvance.draw(win)
   
   ###HANGMAN IMAGE####
-  hangmanImage = Image(Point(5,-180), "img/Hangman.png")
+  hangmanImage = Image(Point(5,-180), "Hangman.png")
   hangmanImage.draw(win)
 
 
@@ -200,7 +200,7 @@ def main():
   width = 500
   height = 500
   win = GraphWin('Crossword-Hangman Hybrid', width, height)
-  bg = Image(Point(width/150, height/550), "img/BBG.gif")
+  bg = Image(Point(width/150, height/550), "BBG.gif")
   bg.draw(win)
 
 
