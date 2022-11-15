@@ -109,7 +109,7 @@ fifth_word_let_4.setSize(24)
 def crossword_game(win):
 
    ###DRAWS CROSSWORD####
-  cross_bkg = Image(Point(0,0), "img/Winter_crossword.png")
+  cross_bkg = Image(Point(0,0), "Winter_crossword.png")
   word_list = ["snowflake", "cold", "gloves", "holiday","sled"]
   cross_bkg.draw(win)
   word_fill_ins(win)
